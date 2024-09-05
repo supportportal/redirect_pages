@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지원 : Cloud Z Support Portal</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentUrl = window.location.href;
+            var path = window.location.pathname;
+            var newHost = 'support.skdt.co.kr';
+            var newUrl = 'https://' + newHost + path;
+            console.log("path=",path)
+            console.log("newUrl=",newUrl)
+            window.location.href = newUrl;
+        });
+    </script>
+</head>
+<body>
+    <p>도메인이 변경되어 해당 페이지로 이동합니다. 잠시만 기다려주세요.</p>
+</body>
+</html>
